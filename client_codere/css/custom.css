@@ -1,0 +1,129 @@
+body {
+    background-color: #283e48d5;
+    overflow: hidden;
+}
+
+.navbar {
+    z-index: 10;
+}
+
+
+/*------------- GENERAL -------------*/
+.bg-principal {
+    background-color: #3BAF2C!important;
+    border-color: #3BAF2C!important;
+}
+
+.bg-secundario {
+    background-color: #283E48!important;
+}
+
+.bg-tercero {
+    background-color: #20323a!important;
+    color: white!important;
+}
+
+.bg-cuarto {
+    background-color: #162329!important;
+    border-color: #162329!important;
+    color: white!important;
+}
+
+
+/*------------- BOTONES -------------*/
+.btn.bg-principal:hover {
+    background-color: #297e1e!important;
+    border-color: #297e1e!important;
+}
+
+*:focus {
+    outline: 0!important;
+    box-shadow: none!important;
+}
+
+
+/*------------- INPUT -------------*/
+.btn-cuarto:hover {
+    background-color: #1a2a31!important;
+    border-color: #1a2a31!important;
+    color: white!important;
+}
+
+.btn-outline-success {
+    color: #FFF!important;
+    border-color: #FFF!important;
+}
+
+.btn-check:active+.btn-outline-success, .btn-check:checked+.btn-outline-success, .btn-outline-success.active, .btn-outline-success.dropdown-toggle.show, .btn-outline-success:active {
+    background-color: #3BAF2C!important;
+    border-color: #3BAF2C!important;
+}
+
+.btn-outline-success:hover {
+    background-color: #3BAF2C!important;
+    border-color: #3BAF2C!important;
+}
+
+.custom-input {
+    width:100%;
+    height:4rem;
+    border-radius: 0.25rem;
+
+    padding:1rem;
+    color: white!important;
+
+    background-color: #162329;
+}
+
+.custom-input::placeholder {
+    color: #fff!important;
+}
+
+.custom-input:focus::placeholder {
+    color: rgba(255, 255, 255, 0.2)!important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*------------ COLLAPSABLE ------------*/
+.collapsible {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+	border-radius: 5px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-bottom: 1rem;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+  }
+
+  .content td {
+      padding-top:1rem;
+      padding-bottom:1rem;
+  }
+
+
+
